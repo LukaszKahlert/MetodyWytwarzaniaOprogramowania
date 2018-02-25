@@ -22,7 +22,8 @@ public class Ui {
 		f.dodajPozycje(t1,3);
 		f.dodajPozycje(t2, 5);
 		
-		Wydruk.wypiszFakture(f);
+		DrukujFakture df = new StandardowyWydruk();
+		df.wypiszFakture(f);
 
 		
 		//TEST ZEWN. rabatu
