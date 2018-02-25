@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Date;
 import rabaty.*;
+import main.*;
 import magazyn.Towar;
 
 public class Faktura {
@@ -18,7 +19,7 @@ public class Faktura {
 		this.kontrahent = kontrahent;
 		pozycje = new ArrayList<Pozycja>();
 		suma = 0;
-		rabat = new ObliczCenePoRabacieKwotowym();
+		rabat = Config.getInstance().getLiczarkaRabatu();
 	}
 
 	public void dodajPozycje(Towar towar, double ilosc) {
@@ -53,5 +54,7 @@ public class Faktura {
 	public String getKontrahent() {
 		return this.kontrahent;
 	}
+	
+	
 
 }
