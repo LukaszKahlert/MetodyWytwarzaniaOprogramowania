@@ -18,5 +18,14 @@ public class Config {
 	{
 		return new ObliczCenePoRabacieProcentowym();
 	}
+	
+	public double getKwotaRabatu()	{
+		return 1;}
+	
+	public double getProcentRabatu()
+	{
+		return 90;
+	}
+	
 
 }
