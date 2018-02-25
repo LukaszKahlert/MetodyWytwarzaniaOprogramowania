@@ -16,7 +16,7 @@ public class Config {
 	public IObliczCenePoRabacie getLiczarkaRabatu()
 
 	{
-		return new ObliczCenePoRabacieProcentowym();
+		return new AdapterRabatuKlasowy();
 	}
 	
 	public double getKwotaRabatu()	{
