@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.Date;
 
 import magazyn.Towar;
-//wwww
+
 
 public class Faktura {
 	Date dataSprzedazy;
