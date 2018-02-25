@@ -4,11 +4,8 @@ public class ObliczCenePoRabacieProcentowym implements IObliczCenePoRabacie {
 
 	@Override
 	public double obliczCenePoRabacie(double cena) {
-		int cenaPorabacie;
-		//qqq
+		return cena - cena*10/100;
 		
-		
-		return 0;
 	}
 
 }
